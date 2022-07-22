@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner&family=Rubik+Moonrocks&display=swap');
+
+
+body {
+    margin: 0px 10px;
+    width: 800px;
+
+    margin: auto;
+}
+
+ul {
+    list-style-type: none;
+}
+
+#headrul {
+    display: inline-block;
+    padding-left: 1px;
+}
+
+#delname {
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#des-name {
+    text-transform: uppercase;
+    font-size: xx-small;
+    color: grey;
+}
+
+#firt-header {
+    float: left;
+}
+
+#second-header {
+    float: right;
+    margin-top: 10px;
+}
+
+#header-ul li {
+    display: inline-block;
+}
+
+.line{
+    display: block;
+    height: 10px;
+    float: center;
+    border: 0;
+    border-bottom: 1px #ccc;
+    background: #999;
+    background-size: 3px 3px;
+    width: 100%;
+    background-image: url(./assets/small-logo.png);
+}
+
+#main{
+    margin-top: 40px;
+}
+#main-above{
+    padding-left: 0px;
+   
+
+    
+}
+.print{
+    float: right; 
+    color: grey;
+    text-transform:uppercase ;
+    font-size: x-small;
+}
+
+
+#main-above-title{
+font-family: 'Edu VIC WA NT Beginner', cursive;
+font-family: 'Rubik Moonrocks', cursive;
+font-weight: bold;
+font-size: xx-large;
+}
+#main-above-des{
+font-weight: lighter;
+color: grey;
+font-size: small;
+display: inline-block;
+}
+#img{
+    width: 800px;
+}
+#rss{
+    padding-left: 5px;
+}
+p{
+    text-indent: 1cm;
+    font-size: 18px;
+}
+
+
+#checklistimg{
+   overflow: hidden;
+   width: 100%;
+}
+
+#container{
+    position: relative;
+    width: 100%;
+
+}
+#firstlist{
+    position: absolute;
+    left:10%;
+    top: 10%;
+}
+#secondlist{
+    position: absolute;
+    right:10%;
+    top: 10%;
+}
+.list-check{
+    -webkit-appearance: none;
+	background-color:transparent ;
+	border: 1px solid gray;
+	padding: 5px;
+    top: 9px;
+    padding-top: 1;
+	border-radius: 3px;
+	display: inline-block;
+	position: relative;
+    margin-bottom: 8px;
+}
+.list-check:checked {
+	background-color: transparent;
+	border: 1px solid gray;
+	color: black;
+    margin-bottom: 8px;
+}
+.list-check:checked:after {
+    content: '\2714';
+    font-size: 15px;
+    position: absolute;
+    top: -8px;
+    left: 1px;
+    color: grey;
+}
+
+#itemdel{
+    text-decoration: line-through;
+}
+
+
+
+#footer-header{
+    display: inline-block;
+   
+}
+
+#des-van{
+   
+    display: inline-block;
+    margin-top: 2px;
+    font-size: small;
+    color: grey;
+}
+#second{
+    float: right;
+}
+#vanname{
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+#btn{
+    background-color: coral;
+    border-color :coral ;
+    color: white;
+    text-transform: uppercase;
+    padding: 9px 15px;
+    margin-top: 25px;
+}
+
+#footerhr { 
+    background: url('./assets/small-logo.png') no-repeat top center;
+    background-size: contain;
+    display: block;
+    height: 18px;
+    border: 0;
+    position: relative;
+}
+
+#footerhr:before {
+    content: '';
+    display: block;
+    position: absolute;
+    background: #d7d7d7;
+    height: 2px;
+    top: 8px;
+    left: 0;
+    right: 50%;
+    margin-right: 10px;
+}
+#footerhr:after {
+    content: '';
+    display: block;
+    position: absolute;
+    background: #d7d7d7;
+    height: 2px;
+    top: 8px;
+    right: 0;
+    left: 50%;
+    margin-left: 10px;
+}
+
+#footerdiv{
+ 
+    text-align: center;
+    color: grey;
+}
