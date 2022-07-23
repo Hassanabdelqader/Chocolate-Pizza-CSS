@@ -42,16 +42,12 @@ ul {
     display: inline-block;
 }
 
-.line{
-    display: block;
+hr{
+    background-image: url(./assets/hr.png);
     height: 10px;
+    border: 0px;
     float: center;
-    border: 0;
-    border-bottom: 1px #ccc;
-    background: #999;
-    background-size: 3px 3px;
     width: 100%;
-    background-image: url(./assets/small-logo.png);
 }
 
 #main{
@@ -133,6 +129,7 @@ p{
     text-decoration: line-through;
 	color: black;
     margin-bottom: 8px;
+
 }
 .list-check:checked:after {
     content: '\2714';
@@ -142,10 +139,11 @@ p{
     left: 1px;
     color: grey;
 }
-
-#itemdel{
+input:checked+label {
     text-decoration: line-through;
+    color:grey;
 }
+
 
 
 
