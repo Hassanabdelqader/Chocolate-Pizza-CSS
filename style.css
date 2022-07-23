@@ -130,6 +130,7 @@ p{
 .list-check:checked {
 	background-color: transparent;
 	border: 1px solid gray;
+    text-decoration: line-through;
 	color: black;
     margin-bottom: 8px;
 }
@@ -151,6 +152,18 @@ p{
 #footer-header{
     display: inline-block;
    
+}
+
+#footerline{
+    display: block;
+    height: 10px;
+    float: center;
+    border: 0;
+    border-bottom: 1px #ccc;
+    background: #999;
+    background-size: 3px 3px;
+    width: 100%;
+    background-image: url(./assets/small-logo.png); 
 }
 
 #des-van{
